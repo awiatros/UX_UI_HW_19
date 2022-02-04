@@ -1,0 +1,549 @@
+/* GLobal Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+h1 {
+    font: 600 65px/1.6 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h2 {
+    font: 40px/1.6 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h3 {
+    font: 600 24px/1.6 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h4 {
+    font: 24px/1.6 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h5 {
+    font: 600 14px/1.6 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.toolkit-item, .skill-list, button, p, .links {
+    font: 14px/1.6 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.credits a, .credits li, #copyright {
+    font: 9px/1.6 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+/* Nav Bar */
+
+header {
+    margin: 0;
+    height: 160px;
+    background-color: #476072;
+    left: 0px;
+    right: 0px;
+}
+
+nav {
+    overflow: hidden;
+    justify-content: end;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.links {
+    padding: 0 16px;
+    color: #eee;
+    margin-top: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-top: auto;
+}
+
+nav ul li:first-child {
+    margin-right: auto;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+}
+
+.burger {
+    display: none;
+}
+
+/* Hero Image */
+
+.hero {
+    width: 100%;
+    height: 620px;
+    overflow: hidden;
+    background-image: url("../images/hero_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0px;
+    right: 0px;
+}
+
+.content {
+    text-align: left;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    max-width: 700px;
+}
+
+.hero button {
+    margin-top: 5%;
+    background-color: #fff;
+    padding: 15px;
+    border: black 2px solid;
+    border-radius: 0px;
+}
+
+/* About */
+
+.about {
+    max-width: 1192px;
+    margin: auto;
+    background-color: #eee;
+}
+
+.about h2 {
+    margin-top: 120px;
+    padding-bottom: 40px;
+}
+
+.design-style h3 {
+    margin: 120px auto 32px;
+}
+
+.profile-flex {
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.profile-col {
+    margin: 0 auto;
+    max-width: 360px;
+    justify-content: space-between;
+    padding-top: 2em;
+    text-align: center;
+    align-items: top;
+}
+
+.profile-flex .profile-col {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.profile-col h4 {
+    margin: 1rem 0;
+}
+
+.profile-col h4 {
+    margin: 1rem 0;
+}
+
+.profile-col img {
+    height: 160px;
+    width: 160px;
+}
+
+.skills {
+    margin-top: 120px;
+}
+
+.skills h3 {
+    padding-bottom: 16px;
+}
+
+.skill-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-list {
+    list-style-type: none;
+    text-align: center;
+}
+
+.toolkit {
+    margin-top: 120px;
+}
+
+.toolkit h3 {
+    padding-bottom: 16px;
+}
+
+.toolkit-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    padding: 10px;
+}
+
+.tool-icon {
+    height: 64px;
+    width: 64px;
+}
+
+.toolkit-item {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+/* Portfolio */
+
+.portfolio {
+    max-width: 1192px;
+    margin: auto;
+    background-color: #eee;
+    padding-bottom: 120px;
+}
+
+.portfolio h2 {
+    margin-top: 120px;
+    padding-bottom: 40px;
+}
+
+.portfolio-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px 0;
+    border: solid 1px lightgray;
+    box-shadow: 2px 7px 10px lightgray;
+}
+
+.portfolio-card:hover {
+    box-shadow: none;
+    transform: translateX(5px) translateY(5px);
+    transition: 0.3s;
+}
+
+.card-segment {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.blurb h3, .blurb h5 {
+    padding: 0 5%; 
+}
+
+.blurb p {
+    padding: 0 5%;
+}
+
+.blurb h3 {
+    padding-top: 5%;
+    padding-bottom: 1rem;
+}
+
+.blurb h5 {
+    padding-bottom: 1rem;
+}
+
+.mock {
+    height: 536px;
+    background-color: #DDE8EE;
+    justify-content: center;
+    align-items: center;
+}
+
+.mock img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Footer */
+
+footer {
+    background: #476072;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    color: #eee;
+}
+
+.credits {
+    display: flex;
+    max-width: 1192px;
+    margin: 0 auto;
+    list-style-type: none;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.credits a {
+    display: inline-block;
+    text-decoration: none;
+    color: lightblue;
+    top: auto;
+    padding-bottom: 14px;
+}
+
+.credits a:hover {
+    color: #e0762b;
+}
+
+.icon {
+    padding: 0 24px;
+}
+
+.socials {
+    text-align: center;
+}
+
+.break {
+    padding: 0 8px;
+    font-size: 14px;
+    transform: translateY(-20%);
+}
+
+.moveup {
+    position: absolute;
+    right: 10%;
+    top: -20%;
+    height: 64px;
+    width: 64px;
+    border: none;
+    background-color: #dde8ee;
+    padding: 0px;
+    border-radius: 65px;
+}
+
+#copyright {
+    text-align: right;
+    margin: auto;
+    margin-right: 10%;
+    width: 100px;
+    padding-bottom: 16px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+  /*Global*/
+
+    h1 {
+        font: 40px/1.6 'Poppins', sans-serif;
+        margin: 0;
+    }
+
+    h2 {
+        font: 24px/1.6 'Poppins', sans-serif;
+        margin: 0;
+    }
+
+    h3 {
+        font: 24px/1.6 'Poppins', sans-serif;
+        margin: 0;
+    }
+
+    h4 {
+        font: 600 14px/1.6 'Poppins', sans-serif;
+        margin: 0;
+    }
+
+    h5 {
+        font: 600 14px/1.6 'Poppins', sans-serif;
+        margin: 0;
+    }
+
+   /* Nav Bar*/
+
+   header {
+    margin: 0;
+    height: 90px;
+    background-color: #476072;
+    left: 0px;
+    right: 0px;
+    }
+
+    nav {
+        overflow: hidden;
+        justify-content: end;
+    }
+
+    nav ul {
+        padding-right: 40px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .links {
+        display: none;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-top: auto;
+    }
+
+    nav ul li:first-child {
+        margin-right: auto;
+    }
+
+    .logo {
+        height: 60px;
+        width: auto;
+    }
+
+    .burger {
+        display: block;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+   /* Hero Image*/
+   .hero {
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+        left: 0px;
+        right: 0px;
+    }
+   
+    .hero h3 {
+        font: 600 14px/1.6 'Poppins', sans-serif;
+        margin: 0;
+    }
+
+    .content {
+        text-align: left;
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        max-width: 700px;
+    }
+
+   /*About Section*/
+
+    .about h2 {
+        margin-top: 40px;
+        padding-bottom: 24px;
+        font: 600 24px/1.6 'Poppins', sans-serif;
+    }
+
+    .design-style h3 {
+        margin: 40px auto 24px;
+    }
+    .profile-flex, .skill-flex {
+        flex-flow: column;
+    }
+
+    .skills {
+        margin-top: 40px;
+    }
+
+    .skills h3 {
+        padding-bottom: 0;
+    }
+
+    .toolkit {
+        margin-top: 40px;
+    }
+    .toolkit-list {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 50% 50%;
+    }
+
+   /*My Work*/
+    .portfolio {
+        padding-bottom: 24px;
+    }
+
+    .portfolio h2 {
+        margin-top: 40px;
+        padding-bottom: 24px;
+    }
+   
+    .portfolio-card {
+        flex-flow: column;
+    }
+
+    .card-segment {
+        flex-flow: column;
+        width: 100%;
+    }
+
+    .blurb p {
+        padding-bottom: 1rem;
+    }
+
+    .mock {
+        align-content: center;
+        justify-content: center;
+    }
+
+   /*Footer*/
+    footer {
+        margin: 0;
+        padding: 0
+    }
+
+    .socials {
+        justify-content: center;
+        align-content: center;
+        padding-right: 40px;
+        padding-top: 32px;
+    }
+
+    .icon {
+        padding: 0;
+    }
+
+    footer button {
+        max-height: 48px;
+        max-width: 48px;
+    }
+
+    .credits {
+        flex-wrap: wrap;
+        margin: 0 5%;
+        padding: 0 0 12px;
+        justify-content: left;
+    }
+
+    .credits a {
+        text-align: left;
+    }
+
+    .break {
+        display: none;
+    }
+
+    .copyright {
+        text-align: left;
+        align-content: left;
+        padding: 0;
+    }
+
+    .moveup {
+        right: 10%;
+        top: -32px;
+        height: 48px; /* This and width change aren't working and I don't know why*/
+        width: 48px
+    }
+}
