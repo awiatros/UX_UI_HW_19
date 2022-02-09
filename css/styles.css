@@ -26,7 +26,7 @@ h5 {
     margin: 0;
 }
 
-.toolkit-item, .skill-list, button, p, .links {
+.toolkit-item, .skill-list, button, p, .links, a {
     font: 14px/1.6 'Poppins', sans-serif;
     margin: 0;
 }
@@ -60,8 +60,12 @@ nav ul {
 
 .links {
     padding: 0 16px;
-    color: #eee;
     margin-top: auto;
+}
+
+.links a {
+    text-decoration: none;
+    color: #eee;
 }
 
 nav ul li {
@@ -414,6 +418,38 @@ footer {
         display: block;
         top: 50%;
         transform: translateY(-50%);
+    }
+
+    .open {
+        display: grid;
+        position: absolute;
+        z-index: 10000;
+        background-color: #BBD1DC;
+        width: 30%;
+        right: 1.5%;
+    }
+
+    .ham-nav {
+        transition: right .5s;
+    }
+    .out {
+        right: -180px;
+    }
+
+    .menu-listing {
+        list-style-type: none;
+        margin-left: -40px;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .menu-listing li {
+        padding: 12px 0;
+    }
+    .menu-listing a {
+        text-decoration: none;
+        color: #334257;
     }
 
    /* Hero Image*/
