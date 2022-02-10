@@ -11,14 +11,14 @@
 
 <body>
     <!--Header-->
-    <header class="navigation">
+    <header class="navigation" id="scroll-nav">
         <div>
             <nav>
                 <ul>
                     <li><img src="./images/logo.png" alt="Text Adam Wiatros in front of Grey Atomic Diagram" class="logo"></li>
-                    <li class="links"><a href=".about">About</a></li>
-                    <li class="links"><a href=".skills">Skills</a></li>
-                    <li class="links"><a href=".portfolio">Work</a></li>
+                    <li class="links"><a href="#scroll-about">About</a></li>
+                    <li class="links"><a href="#scroll-skills">Skills</a></li>
+                    <li class="links"><a href="#scroll-work">Work</a></li>
                     <li class="links"><a href="#">Resume</a></li>
                     <li class="links"><a href="#">Contact</a></li>
                     <li><img src="./images/hamburger.png" alt="Hamburger Menu" class="burger"></li>
@@ -38,27 +38,28 @@
     <!--Hero Image-->
     <section class="hero">
         <div class="content">
-            <h2>Hello, I'm</h2> <!--I know you said not to use h2, h1, etc, but it was already in my code. I also didn't really understand your comment because sample sites and videos I've watched have used these tags -->
-            <h1>Adam Wiatros,</h1>
-            <h2>a User Experience Designer from Minneapolis, Minnesota</h2>
-            <h3>I love to cook, hang out with my dog, and create impactful designs that embrace user feedback.</h3>
-            <button>Download Resume</button>
+            <p class="h2">Hello, I'm</p> <!--I know you said not to use h2, h1, etc, but it was already in my code. I also didn't really understand your comment because sample sites and videos I've watched have used these tags -->
+            <h1 class="h1">Adam Wiatros,</h1>
+            <p class="h2">a User Experience Designer from Minneapolis, Minnesota</p>
+            <p class="h3">I love to cook, hang out with my dog, and create impactful designs that embrace user feedback.</p>
+            <button id="scroll-about">Download Resume</button>
         </div>
     </section>
     <!--About-->
     <section class="about">
-        <h2>About Me</h2>
+        <h2 class="h2">About Me</h2>
         <p class="intro">I’m a UX/UI designer, but you might also hear me called a UX Researcher, Information Architect, or a UX
-            Writer. No matter my title, I am just a designer passionate about creating impactful design that embraces user
-            feedback. You can find me in Minneapolis, where I live with my partner and our xolo, Tepín. When I’m not working on
+            Writer. No matter what you call me, I am just a designer excited to work on translating user insights into accessible, functional, and eye-catching designs.</p>
+        <br>
+        <p>You can find me in Minneapolis, where I live with my partner and our xolo, Tepín. When I’m not working on
             design projects, I’m probably checking out local breweries, watching (and sometimes playing) rugby, or
             dancing a polka (in costume).</p>
         <div class="design-style">
-            <h3>A Bit About How I Design</h3>
+            <p class="h3">A Bit About How I Design</p>
             <div class="profile-flex">
                 <div class="profile-col">
                     <img src="images/puzzle-brain.png" alt="Brain Made of Four Puzzle Pieces">
-                    <h4>Drawing Inspiration from Recreation</h4>
+                    <p class="h4">Drawing Inspiration from Recreation</p>
                     <p>I love puzzles, riddles, trivia, and games. From the Sunday crossword to D&D, Trivial Pursuit to
                         Minecraft, I’m a big fan of collecting information and using it to take something apart or put
                         it together.</p>
@@ -68,7 +69,7 @@
                 </div>
                 <div class="profile-col">
                     <img src="images/empathy.png" alt="Two Human Figures Connected by Arrows">
-                    <h4>Empathy-First, User-Driven Design</h4>
+                    <p class="h4">Empathy-First, User-Driven Design</p>
                     <p>Making people happy is a big part of what drives me. It makes advocating for a user’s needs one
                         of the most important and enjoyable parts of any design I work on. A design is most successful
                         when it can be used easily, effectively, and enjoyably.</p>
@@ -79,12 +80,12 @@
                 </div>
                 <div class="profile-col">
                     <img src="images/geek.png" alt="Brain with Round Spectacles">
-                    <h4>Did Someone Say Spreadsheets?</h4>
+                    <p class="h4">Did Someone Say Spreadsheets?</p>
                     <p>Organized. Data-driven. Meticulous. A big nerd. I’m not sure the best way to describe someone who
                         gets so excited about surveys, graphs, charts, tables, and figures, but I’d like to say I’m
                         pro-information.</p>
                     <br>
-                    <p>I’m continually trying to learn more; to understand more. For an individual design prompt, this
+                    <p id="scroll-skills">I’m continually trying to learn more; to understand more. For an individual design prompt, this
                         means I am passionate about collecting and analyzing data. This also means that I am continually
                         trying to expand my skill set, whether through trial and error, articles, video tutorials, or
                         coursework.</p>
@@ -92,11 +93,11 @@
             </div>
         </div>
         <div class="skills">
-            <h3>Skills</h3>
+            <h2 class="h3">Skills</h2>
             <div class="skill-flex">
                 <div class="profile-col">
                     <ul class="skill-list">
-                        <li><h4>UX Research</h4></li>
+                        <li><h4 class="h4">UX Research</h4></li>
                         <li>User Interviews</li>
                         <li>Competitor Analysis</li>
                         <li>Affinity Diagrams</li>
@@ -112,7 +113,7 @@
                 </div>
                 <div class="profile-col">
                     <ul class="skill-list">
-                        <li><h4>UX Design</h4></li>
+                        <li><h4 class="h4">UX Design</h4></li>
                         <li>Accessible Design</li>
                         <li>Content Design</li>
                         <li>Copy Writing &amp Editing</li>
@@ -128,7 +129,7 @@
                 </div>
                 <div class="profile-col">
                     <ul class="skill-list">
-                        <li><h4>UI Design</h4></li>
+                        <li><h4 class="h4">UI Design</h4></li>
                         <li>Design Systems</li>
                         <li>Style Guides</li>
                         <li>Gestalt Principles</li>
@@ -140,7 +141,7 @@
                 </div>
                 <div class="profile-col">
                     <ul class="skill-list">
-                        <li><h4>Languages</h4></li>
+                        <li><h4 class="h4">Languages</h4></li>
                         <li>HTML5</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
@@ -151,7 +152,7 @@
             </div>
         </div>
         <div class="toolkit">
-            <h3>Toolkit</h3>
+            <h3 class="h3">Toolkit</h3>
             <div class="toolkit-grid">
                 <ul class="toolkit-list">
                     <li class="toolkit-item">
@@ -192,7 +193,7 @@
                     </li>
                     <li class="toolkit-item">
                         <img class="tool-icon" src="images/google.png" tag="Google Logo">
-                        <p>Google Workspace</p>
+                        <p id="scroll-work">Google Workspace</p>
                     </li>
                 </ul>
             </div>
@@ -200,12 +201,12 @@
     </section>
     <!--Portfolio-->
     <section class="portfolio">
-        <h2>My Work</h2>
+        <h2 class="h2">My Work</h2>
         <div class="portfolio-card">
             <div class="card-segment">
                 <div class="blurb">
-                    <h3>Legendary Sports</h3>
-                    <h5>Mobile Application</h5>
+                    <h3 class="h3">Legendary Sports</h3>
+                    <h5 class="h5">Mobile Application</h5>
                     <p>Conceptualized and designed a mobile app connecting adult users to recreational teams in their area. Our design process included collecting user feedback and insights via interviews and a survey and wireframing, designing, and testing a hi-fidelity prototype.</p>
                 </div>
             </div>
@@ -218,8 +219,8 @@
         <div class="portfolio-card">
             <div class="card-segment">
                 <div class="blurb">
-                    <h3>Minnesota Department of Natural Resources</h3>
-                    <h5>Government Website Responsive Redesign</h5>
+                    <h3 class="h3">Minnesota Department of Natural Resources</h3>
+                    <h5 class="h5">Government Website Responsive Redesign</h5>
                     <p>Analyzed, tested, and redesigned the Minnesota Department of Natural Resources website with a focus on accessibility, focusing on information architecture, responsive web design, and visual design. Our design process included collecting user insights via user tests, interviews, and a survey and wireframing, designing, and testing a hi-fidelity prototype.</p>
                 </div>
             </div>
@@ -232,8 +233,8 @@
         <div class="portfolio-card">
             <div class="card-segment">
                 <div class="blurb">
-                    <h3>BrightSide Produce</h3>
-                    <h5>Nonprofit Website Responsive Redesign</h5>
+                    <h3 class="h3">BrightSide Produce</h3>
+                    <h5 class="h5">Nonprofit Website Responsive Redesign</h5>
                     <p>Partnered with nonprofit stakeholder to conceptualize a responsive redesign of their website with a strong focus on accessibility and UI improvements. Our design process included user testing, interviews, and a survey; website heuristics; and low-, mid-, and high-fidelity desktop and mobile wireframing and prototyping.</p>
                 </div>
             </div>

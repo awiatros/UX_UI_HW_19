@@ -5,27 +5,27 @@ html {
     scroll-behavior: smooth;
 }
 
-h1 {
+.h1 {
     font: 600 65px/1.6 'Poppins', sans-serif;
     margin: 0;
 }
 
-h2 {
+.h2 {
     font: 40px/1.6 'Poppins', sans-serif;
     margin: 0;
 }
 
-h3 {
+.h3 {
     font: 600 24px/1.6 'Poppins', sans-serif;
     margin: 0;
 }
 
-h4 {
+.h4 {
     font: 24px/1.6 'Poppins', sans-serif;
     margin: 0;
 }
 
-h5 {
+.h5 {
     font: 600 14px/1.6 'Poppins', sans-serif;
     margin: 0;
 }
@@ -133,12 +133,12 @@ nav ul li:first-child {
     background-color: #eee;
 }
 
-.about h2 {
+.about .h2 {
     margin-top: 120px;
     padding-bottom: 40px;
 }
 
-.design-style h3 {
+.design-style .h3 {
     margin: 120px auto 32px;
 }
 
@@ -164,11 +164,11 @@ nav ul li:first-child {
     padding-right: 8px;
 }
 
-.profile-col h4 {
+.profile-col .h4 {
     margin: 1rem 0;
 }
 
-.profile-col h4 {
+.profile-col .h4 {
     margin: 1rem 0;
 }
 
@@ -181,7 +181,7 @@ nav ul li:first-child {
     margin-top: 120px;
 }
 
-.skills h3 {
+.skills .h3 {
     padding-bottom: 16px;
 }
 
@@ -199,7 +199,7 @@ nav ul li:first-child {
     margin-top: 120px;
 }
 
-.toolkit h3 {
+.toolkit .h3 {
     padding-bottom: 16px;
 }
 
@@ -230,7 +230,7 @@ nav ul li:first-child {
     padding-bottom: 120px;
 }
 
-.portfolio h2 {
+.portfolio .h2 {
     margin-top: 120px;
     padding-bottom: 40px;
 }
@@ -258,7 +258,7 @@ nav ul li:first-child {
     flex: 1;
 }
 
-.blurb h3, .blurb h5 {
+.blurb .h3, .blurb .h5 {
     padding: 0 5%; 
 }
 
@@ -266,12 +266,12 @@ nav ul li:first-child {
     padding: 0 5%;
 }
 
-.blurb h3 {
+.blurb .h3 {
     padding-top: 5%;
     padding-bottom: 1rem;
 }
 
-.blurb h5 {
+.blurb .h5 {
     padding-bottom: 1rem;
 }
 
@@ -358,27 +358,27 @@ footer {
 @media only screen and (max-width: 600px) {
   /*Global*/
 
-    h1 {
+    .h1 {
         font: 40px/1.6 'Poppins', sans-serif;
         margin: 0;
     }
 
-    h2 {
+    .h2 {
         font: 24px/1.6 'Poppins', sans-serif;
         margin: 0;
     }
 
-    h3 {
+    .h3 {
         font: 24px/1.6 'Poppins', sans-serif;
         margin: 0;
     }
 
-    h4 {
+    .h4 {
         font: 600 14px/1.6 'Poppins', sans-serif;
         margin: 0;
     }
 
-    h5 {
+    .h5 {
         font: 600 14px/1.6 'Poppins', sans-serif;
         margin: 0;
     }
@@ -469,7 +469,7 @@ footer {
         right: 0px;
     }
    
-    .hero h3 {
+    .hero .h3 {
         font: 600 14px/1.6 'Poppins', sans-serif;
         margin: 0;
     }
@@ -484,13 +484,13 @@ footer {
 
    /*About Section*/
 
-    .about h2 {
+    .about .h2 {
         margin-top: 40px;
         padding-bottom: 24px;
         font: 600 24px/1.6 'Poppins', sans-serif;
     }
 
-    .design-style h3 {
+    .design-style .h3 {
         margin: 40px auto 24px;
     }
     .profile-flex, .skill-flex {
@@ -501,7 +501,7 @@ footer {
         margin-top: 40px;
     }
 
-    .skills h3 {
+    .skills .h3 {
         padding-bottom: 0;
     }
 
@@ -518,7 +518,7 @@ footer {
         padding-bottom: 24px;
     }
 
-    .portfolio h2 {
+    .portfolio .h2 {
         margin-top: 40px;
         padding-bottom: 24px;
     }
