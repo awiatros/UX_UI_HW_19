@@ -4,5 +4,5 @@ $(".burger").click(function(){
 
 $(".moveup").click(function() {
    $('html, body').animate({
-       scrollTop: $(".navigation").offset().top
+       scrollTop: $("html").offset().top
    }, 100)});
