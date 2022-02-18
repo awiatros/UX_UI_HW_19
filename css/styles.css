@@ -249,6 +249,10 @@ nav ul li:first-child {
     box-shadow: 2px 7px 10px lightgray;
 }
 
+.work_btn {
+    cursor: pointer;
+}
+
 .card-segment {
     display: flex;
     flex-direction: column;
